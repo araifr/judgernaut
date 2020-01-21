@@ -1,18 +1,18 @@
 # A rough architecture plan
-** Stack: ** python/flask
-** DB: ** PostgreSQL
+**Stack:** python/flask
+**DB:** PostgreSQL
 
 
 ##### Entities (Models in MVC (?))
 (& - reference to)
 
-** User **
+**User**
 - permissions
 - submissions &
 - about
 - credentials
 
-** Problem **
+**Problem**
 - test set:
 	a set of files with input data and corresponding output answers
 - checker
@@ -21,14 +21,14 @@
 	a problem statement (html?)
 - submissions &
 
-** Submission **
+**Submission**
 - source / text
 - run info
 - user info &
 - result
 
 
-** Contest **
+**Contest**
 - problems &
 - scoring:
 	time penalty, scores ( - should be highly customizable)
